@@ -1,0 +1,197 @@
+1:X 25 May 2022 03:05:28.200 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 03:05:28.202 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 03:05:28.205 # Configuration loaded
+1:X 25 May 2022 03:05:28.207 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 03:05:28.211 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 03:05:28.216 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:05:28.218 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:05:28.220 # Sentinel ID is 7aae6290b0e06a9b8d6f3ea0de36cb88eeddd1a1
+1:X 25 May 2022 03:05:28.223 # +monitor master mymaster 172.27.0.3 6379 quorum 2
+1:X 25 May 2022 03:05:28.227 * +slave slave 172.27.0.2:6381 172.27.0.2 6381 @ mymaster 172.27.0.3 6379
+1:X 25 May 2022 03:05:28.231 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:05:28.233 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:05:28.236 * +slave slave 172.27.0.4:6380 172.27.0.4 6380 @ mymaster 172.27.0.3 6379
+1:X 25 May 2022 03:05:28.239 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:05:28.242 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:05:30.253 * +sentinel sentinel 3441ad34d4fa32696dca66bd5751ee154901d6b7 172.27.0.6 5500 @ mymaster 172.27.0.3 6379
+1:X 25 May 2022 03:05:30.273 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:05:30.279 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:05:30.646 * +sentinel sentinel e9097ecfdec8bfe6ab7678984b688a3acf588e8f 172.27.0.7 5500 @ mymaster 172.27.0.3 6379
+1:X 25 May 2022 03:05:30.654 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:05:30.660 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:signal-handler (1653448094) Received SIGTERM scheduling shutdown...
+1:X 25 May 2022 03:08:14.579 # User requested shutdown...
+1:X 25 May 2022 03:08:14.581 # Sentinel is now ready to exit, bye bye...
+1:X 25 May 2022 03:09:04.527 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 03:09:04.531 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 03:09:04.534 # Configuration loaded
+1:X 25 May 2022 03:09:04.538 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 03:09:04.540 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 03:09:04.545 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:09:04.549 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:09:04.552 # Sentinel ID is f4ced86c997165ad282713869338550a86788554
+1:X 25 May 2022 03:09:04.555 # +monitor master mymaster 172.28.0.3 6379 quorum 2
+1:X 25 May 2022 03:09:04.558 * +slave slave 172.28.0.4:6381 172.28.0.4 6381 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:09:04.562 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:09:04.565 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:09:04.568 * +slave slave 172.28.0.2:6380 172.28.0.2 6380 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:09:04.571 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:09:04.573 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:09:06.188 * +sentinel sentinel 33307562345d21f3871d8a1f5d9b9c7051fa3936 172.28.0.5 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:09:06.194 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:09:06.198 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:09:06.217 * +sentinel sentinel db89bb56ca93e1b021ed2a93e4d6e83715e8b21b 172.28.0.6 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:09:06.222 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:09:06.225 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:signal-handler (1653448324) Received SIGTERM scheduling shutdown...
+1:X 25 May 2022 03:12:05.031 # User requested shutdown...
+1:X 25 May 2022 03:12:05.034 # Sentinel is now ready to exit, bye bye...
+1:X 25 May 2022 03:12:07.346 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 03:12:07.348 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 03:12:07.351 # Configuration loaded
+1:X 25 May 2022 03:12:07.353 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 03:12:07.356 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 03:12:07.360 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:12:07.362 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:12:07.363 # Sentinel ID is b462b5cd83b363f5ee944f2a32f149ca9fe14f05
+1:X 25 May 2022 03:12:07.365 # +monitor master mymaster 172.28.0.3 6379 quorum 2
+1:X 25 May 2022 03:12:07.367 * +slave slave 172.28.0.4:6381 172.28.0.4 6381 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:12:07.371 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:12:07.372 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:12:07.373 * +slave slave 172.28.0.2:6380 172.28.0.2 6380 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:12:07.376 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:12:07.378 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:12:11.023 * +sentinel sentinel 635e5a5ff4eb4b54f03905bfeb5f0e6653404b88 172.28.0.5 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:12:11.040 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:12:11.049 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:12:12.073 * +sentinel sentinel 8aac6d756755a9ad6290849e620df05802dc2b24 172.28.0.6 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:12:12.094 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:12:12.102 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:signal-handler (1653448421) Received SIGTERM scheduling shutdown...
+1:X 25 May 2022 03:13:41.776 # User requested shutdown...
+1:X 25 May 2022 03:13:41.778 # Sentinel is now ready to exit, bye bye...
+1:X 25 May 2022 03:13:44.626 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 03:13:44.628 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 03:13:44.631 # Configuration loaded
+1:X 25 May 2022 03:13:44.633 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 03:13:44.636 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 03:13:44.644 # Could not rename tmp config file (Device or resource busy)
+1:X 25 May 2022 03:13:44.645 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Device or resource busy
+1:X 25 May 2022 03:13:44.647 # Sentinel ID is 6ab6d992e921c434638d4507f41caf2801f6fba6
+1:X 25 May 2022 03:13:44.650 # +monitor master mymaster 172.28.0.3 6379 quorum 2
+1:X 25 May 2022 03:13:44.653 * +slave slave 172.28.0.4:6381 172.28.0.4 6381 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:13:44.659 # Could not rename tmp config file (Device or resource busy)
+1:X 25 May 2022 03:13:44.661 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Device or resource busy
+1:X 25 May 2022 03:13:44.663 * +slave slave 172.28.0.2:6380 172.28.0.2 6380 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:13:44.671 # Could not rename tmp config file (Device or resource busy)
+1:X 25 May 2022 03:13:44.674 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Device or resource busy
+1:X 25 May 2022 03:13:46.210 * +sentinel sentinel 9968641bbd32809c94e7bc9396630e3989e5ce87 172.28.0.5 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:13:46.238 # Could not rename tmp config file (Device or resource busy)
+1:X 25 May 2022 03:13:46.246 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Device or resource busy
+1:X 25 May 2022 03:13:46.655 * +sentinel sentinel 3cdd05bcb47acbf9aea683fbaaa21e6e780ea8d3 172.28.0.6 5500 @ mymaster 172.28.0.3 6379
+1:X 25 May 2022 03:13:46.681 # Could not rename tmp config file (Device or resource busy)
+1:X 25 May 2022 03:13:46.690 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Device or resource busy
+1:signal-handler (1653448954) Received SIGTERM scheduling shutdown...
+1:X 25 May 2022 03:22:34.066 # User requested shutdown...
+1:X 25 May 2022 03:22:34.069 # Sentinel is now ready to exit, bye bye...
+1:X 25 May 2022 03:25:45.986 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 03:25:45.988 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 03:25:45.990 # Configuration loaded
+1:X 25 May 2022 03:25:45.991 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 03:25:45.994 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 03:25:45.997 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:25:46.001 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:25:46.002 # Sentinel ID is 6d640402270941f101bdcc507f92af1b85f348a0
+1:X 25 May 2022 03:25:46.004 # +monitor master mymaster 172.30.0.2 6379 quorum 2
+1:X 25 May 2022 03:25:46.007 * +slave slave 172.30.0.3:6380 172.30.0.3 6380 @ mymaster 172.30.0.2 6379
+1:X 25 May 2022 03:25:46.010 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:25:46.012 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:25:46.014 * +slave slave 172.30.0.4:6381 172.30.0.4 6381 @ mymaster 172.30.0.2 6379
+1:X 25 May 2022 03:25:46.017 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:25:46.019 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:25:47.587 * +sentinel sentinel e2b51f80c5970cc5b0623eb185e07b530d4227a2 172.30.0.5 5500 @ mymaster 172.30.0.2 6379
+1:X 25 May 2022 03:25:47.592 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:25:47.595 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 03:25:48.148 * +sentinel sentinel 2545c8b2974f77d753e4222c7958cad80d6e54c4 172.30.0.7 5500 @ mymaster 172.30.0.2 6379
+1:X 25 May 2022 03:25:48.152 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 03:25:48.155 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 04:02:56.657 # +tilt #tilt mode entered
+1:X 25 May 2022 04:03:26.528 # -tilt #tilt mode exited
+1:signal-handler (1653453173) Received SIGTERM scheduling shutdown...
+1:X 25 May 2022 04:32:53.745 # User requested shutdown...
+1:X 25 May 2022 04:32:53.776 # Sentinel is now ready to exit, bye bye...
+1:X 25 May 2022 04:43:58.843 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 25 May 2022 04:43:58.849 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 25 May 2022 04:43:58.851 # Configuration loaded
+1:X 25 May 2022 04:43:58.855 * monotonic clock: POSIX clock_gettime
+1:X 25 May 2022 04:43:58.858 * Running mode=sentinel, port=5500.
+1:X 25 May 2022 04:43:58.863 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 04:43:58.866 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 04:43:58.869 # Sentinel ID is ef7fe05751700285c4186c0e840a9c903511abc6
+1:X 25 May 2022 04:43:58.871 # +monitor master mymaster 172.18.0.2 6379 quorum 2
+1:X 25 May 2022 04:43:58.875 * +slave slave 172.18.0.3:6380 172.18.0.3 6380 @ mymaster 172.18.0.2 6379
+1:X 25 May 2022 04:43:58.880 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 04:43:58.887 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 04:43:58.889 * +slave slave 172.18.0.4:6381 172.18.0.4 6381 @ mymaster 172.18.0.2 6379
+1:X 25 May 2022 04:43:58.893 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 04:43:58.895 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 04:44:01.166 * +sentinel sentinel c1080283198ce8b2bc6813188d5b9dbf0c49b656 172.18.0.6 5500 @ mymaster 172.18.0.2 6379
+1:X 25 May 2022 04:44:01.171 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 04:44:01.174 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 04:44:01.986 * +sentinel sentinel 71357454ab41b241ac6955799c86e04107c6b700 172.18.0.7 5500 @ mymaster 172.18.0.2 6379
+1:X 25 May 2022 04:44:02.010 # Could not create tmp config file (Permission denied)
+1:X 25 May 2022 04:44:02.023 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 25 May 2022 06:42:55.735 # +tilt #tilt mode entered
+1:X 25 May 2022 06:43:25.532 # -tilt #tilt mode exited
+1:X 25 May 2022 06:59:54.754 # +tilt #tilt mode entered
+1:X 25 May 2022 07:00:24.530 # -tilt #tilt mode exited
+1:X 25 May 2022 07:26:40.211 # +tilt #tilt mode entered
+1:X 25 May 2022 07:27:10.070 # -tilt #tilt mode exited
+1:X 25 May 2022 08:08:44.983 # +tilt #tilt mode entered
+1:X 25 May 2022 08:09:14.703 # -tilt #tilt mode exited
+1:X 25 May 2022 08:40:12.421 # +tilt #tilt mode entered
+1:X 25 May 2022 08:40:41.924 # -tilt #tilt mode exited
+1:X 25 May 2022 13:28:38.149 # +tilt #tilt mode entered
+1:X 25 May 2022 13:29:07.687 # -tilt #tilt mode exited
+1:X 25 May 2022 13:29:48.614 # +tilt #tilt mode entered
+1:X 25 May 2022 13:30:18.596 # -tilt #tilt mode exited
+1:X 25 May 2022 17:16:43.682 # +tilt #tilt mode entered
+1:X 25 May 2022 17:16:43.863 # -tilt #tilt mode exited
+1:X 26 May 2022 02:44:34.058 # +tilt #tilt mode entered
+1:X 26 May 2022 02:45:03.638 # -tilt #tilt mode exited
+1:X 26 May 2022 03:46:06.077 # +tilt #tilt mode entered
+1:X 26 May 2022 03:46:35.658 # -tilt #tilt mode exited
+1:signal-handler (1653537399) Received SIGTERM scheduling shutdown...
+1:X 26 May 2022 03:56:39.437 # User requested shutdown...
+1:X 26 May 2022 03:56:39.461 # Sentinel is now ready to exit, bye bye...
+1:X 26 May 2022 03:56:49.749 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 26 May 2022 03:56:49.751 # Redis version=7.0.0, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 26 May 2022 03:56:49.754 # Configuration loaded
+1:X 26 May 2022 03:56:49.756 * monotonic clock: POSIX clock_gettime
+1:X 26 May 2022 03:56:49.759 * Running mode=sentinel, port=5500.
+1:X 26 May 2022 03:56:49.763 # Could not create tmp config file (Permission denied)
+1:X 26 May 2022 03:56:49.765 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 26 May 2022 03:56:49.767 # Sentinel ID is 69873771c4adf6a743e80bfbb6581e1ead4f56ac
+1:X 26 May 2022 03:56:49.770 # +monitor master mymaster 172.18.0.2 6379 quorum 2
+1:X 26 May 2022 03:56:49.773 * +slave slave 172.18.0.3:6381 172.18.0.3 6381 @ mymaster 172.18.0.2 6379
+1:X 26 May 2022 03:56:49.778 # Could not create tmp config file (Permission denied)
+1:X 26 May 2022 03:56:49.780 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 26 May 2022 03:56:49.781 * +slave slave 172.18.0.4:6380 172.18.0.4 6380 @ mymaster 172.18.0.2 6379
+1:X 26 May 2022 03:56:49.785 # Could not create tmp config file (Permission denied)
+1:X 26 May 2022 03:56:49.786 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 26 May 2022 03:56:50.930 * +sentinel sentinel 4cd4ffbad615f24d0fe2efcc214b92a2d3b98648 172.18.0.5 5500 @ mymaster 172.18.0.2 6379
+1:X 26 May 2022 03:56:50.935 # Could not create tmp config file (Permission denied)
+1:X 26 May 2022 03:56:50.938 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 26 May 2022 03:56:51.489 * +sentinel sentinel 4acf49101fbbd0b289ada3768c3ffbfdba680953 172.18.0.6 5500 @ mymaster 172.18.0.2 6379
+1:X 26 May 2022 03:56:51.500 # Could not create tmp config file (Permission denied)
+1:X 26 May 2022 03:56:51.506 # WARNING: Sentinel was not able to save the new configuration on disk!!!: Permission denied
+1:X 26 May 2022 07:26:29.263 * +reboot master mymaster 172.18.0.2 6379
+1:X 26 May 2022 08:41:09.735 # +tilt #tilt mode entered
+1:X 26 May 2022 08:41:39.519 # -tilt #tilt mode exited
+1:X 26 May 2022 09:16:39.832 # +tilt #tilt mode entered
+1:X 26 May 2022 09:17:09.493 # -tilt #tilt mode exited
+1:X 26 May 2022 13:27:36.158 # +tilt #tilt mode entered
+1:X 26 May 2022 13:28:05.215 # -tilt #tilt mode exited
+1:X 26 May 2022 18:24:33.552 # +tilt #tilt mode entered
+1:X 27 May 2022 03:33:35.711 # +tilt #tilt mode entered
+1:X 27 May 2022 03:33:36.304 # -tilt #tilt mode exited
